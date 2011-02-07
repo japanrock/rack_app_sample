@@ -1,0 +1,16 @@
+# coding: utf-8
+
+require 'simple_app.rb'
+require 'rubygems'
+require 'rack/lobster'
+
+map '/simple' do
+  run SimpleApp.new
+end
+
+map '/lobster' do
+  # Rackをインストールすると
+  # サンプルとして付いてくるアプリケーション
+  # ちょっと面白い
+  run Rack::Lobster.new
+end
