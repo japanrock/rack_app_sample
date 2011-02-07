@@ -17,5 +17,6 @@ class SimpleApp
         { 'Content-Type' => 'text/html'},
         ['<html><body>何見てんだよ</body></html>']
       ]
+    end
   end
 end
