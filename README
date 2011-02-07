@@ -1,0 +1,1 @@
+Rackをインストールするとrackupというコマンドも一緒にインストールされていますので，simple_app.rbとconfig.ruがあるディレクトリでrackupを実行してください。そうするとWEBrickが立ち上がるので，http://localhost:9292/にアクセスしてみましょう。( http://gihyo.jp/dev/serial/01/ruby/0023 )
