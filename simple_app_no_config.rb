@@ -26,10 +26,6 @@ end
 #   ruby simple_app_in_builder.rb
 if __FILE__ == $0
   require 'rubygems'
-  require 'rack/builder'
   require 'rack/handler/webrick'
-  app = Rack::Builder.new {
-    run SimpleApp.new
-  }
-  Rack::Handler::WEBrick.run app, :Port => 9292
+  Rack::Handler::WEBrick.run SimpleApp.new, :Port => 9292
 end
