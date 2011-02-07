@@ -1,0 +1,9 @@
+# config: utf-8
+
+require 'simple_app'
+require 'neco_filter'
+require 'inu_filter'
+
+use NecoFilter
+use InuFilter
+run SimpleApp.new
