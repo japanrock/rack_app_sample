@@ -23,7 +23,7 @@ end
 
 # SampleCode from http://gihyo.jp/dev/serial/01/ruby/0024
 # Usage:
-#   ruby simple_app_in_builder.rb
+#   ruby simple_app_no_config.rb
 if __FILE__ == $0
   require 'rubygems'
   require 'rack/handler/webrick'
